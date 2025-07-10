@@ -396,6 +396,23 @@ the [Issues section](https://github.com/multycloud/multy/issues).
 Multy is an open-source tool that can be run locally and free. If at some point you want to move off Multy, you can
 export your infrastructure configuration as Terraform and use it independently.
 
+## Frontend
+
+This repository includes a minimal placeholder frontend located in the
+`frontend` directory. It provides a very basic HTML page that can be used to
+interact with a local Multy server.
+
+1. Start the API server:
+
+   ```bash
+   make run
+   ```
+
+2. Open `frontend/index.html` in your browser.
+
+There is no hosted version of this UI. You can run it locally by following the
+steps above.
+
 ## License
 
 This repository is available under [Apache 2.0](./LICENSE).
